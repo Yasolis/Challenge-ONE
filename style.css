@@ -1,0 +1,90 @@
+* {
+    background: #bffa8e;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoalura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 9%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #041802;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #031d01;}
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: #4cd46a;
+    background-image: url(imagens/boneco\ lupa.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #041802;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-top: 20px;
+    position: fixed;   
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display:flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background: #062303;
+    border: 1px solid #062303;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-decodificar {
+    background-color: #D8DFE8;
+    border: 1px solid #062303;
+    border-radius: 24px;
+    color: #062303
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #062303;
+    border-radius: 24px;
+    color: #062303;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 188px;
+    margin-top: 487px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao{
+    color: #000000;
+    margin-top: 18px;
+}
